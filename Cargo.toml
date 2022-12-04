@@ -1,6 +1,6 @@
 [package]
 name = "delimited-protobuf"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 
 description = "A read/write library for length-delimited protobuf messages."
@@ -9,5 +9,5 @@ repository = "https://github.com/soulmachine/delimited-protobuf-rs"
 keywords = ["delimited", "protobuf", "serialization", "deserialization"]
 
 [dependencies]
-protobuf = "3.1.0"
+protobuf = "3.2.0"
 simple-error = "0.2.3"
